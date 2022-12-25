@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family= Varela+Round & display = swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+}
+.container{
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    box-shadow: 5px 5px 10px rgba(255, 255, 255, .212);
+    border-radius: 30px;
+}
+.img-import{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-import img{
+    width:100%;
+    height:100%;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+}
+.form{
+    background-color: #eee;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.titulo{
+    margin-bottom: 50px;
+}
+.input-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+    width:270px;
+    height: 37px;
+    border-radius: 30px;
+    padding-left: 10px;
+    border: none;
+}
+#email:hover{
+    background-color: #fef;
+}
+#password{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+    width:270px;
+    height: 37px;
+    border-radius: 20px;
+    padding-left: 10px;
+    border: none;
+}
+#password:hover{
+    background-color: #fef;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button button{
+    width: 270px;
+    height: 37px;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: #007800;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+}.button button:hover{
+    background-color: #006400;
+}
+@media screen and (max-width:975px) {
+    .img-import{
+        display: none;
+    
+    }
+    .container{
+        width: 50%
+    }
+    .form{
+        width: 100%;
+    }
+    .img-import img{
+        border-radius: 30px;
+    }
+}
